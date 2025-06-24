@@ -1,5 +1,18 @@
 # Film Gender Classification
 
-This project explores gender balance in Hollywood movies by using machine learning to predict whether the lead actor in a film is male or female. The goal is to learn from film metadata — like dialogue distribution, number of male/female characters, and release year — and build a model that can classify the gender of the lead role.
+In this project, we worked with a real-world dataset of Hollywood movies to build a model that predicts whether the lead actor in a film is male or female — based on things like word counts, cast composition, and the year of release.
 
-It’s inspired by research on gender bias in film dialogue and uses a dataset of over 1,000 movies to explore patterns, trends, and predictive signals.
+The task is framed as a binary classification problem, and it's related to broader discussions around gender balance in film dialogue. Instead of focusing on the social aspect, we approached it from a machine learning perspective — looking at patterns in the data and seeing how well different models can perform.
+
+
+We explored a few different classification methods to see which one works best for this problem. Each model was tuned and evaluated using cross-validation.
+
+Here’s what we tested:
+
+- **Logistic Regression** – a simple baseline that gives us a good starting point.
+- **Linear & Quadratic Discriminant Analysis (LDA & QDA)** – to model decision boundaries using assumptions on the data distribution.
+- **k-Nearest Neighbors (k-NN)** – to classify based on similarity to nearby films in the feature space.
+- **Random Forest** – to capture more complex patterns using an ensemble of decision trees.
+- **Naive baseline** – a simple rule-based classifier that always predicts “male” as the lead. Useful for comparison.
+
+Each method was tested using k-fold cross-validation to get a more reliable estimate of performance.
