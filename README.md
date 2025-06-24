@@ -46,6 +46,6 @@ Once it’s available, it’ll walk through:
 4. Making predictions on the test set
 
 If you're using your own environment, make sure you have Python 3 and the usual ML libraries installed:
+
 ```bash
 pip install pandas scikit-learn matplotlib seaborn
-´´´
