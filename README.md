@@ -16,3 +16,15 @@ Here’s what we tested:
 - **Naive baseline** – a simple rule-based classifier that always predicts “male” as the lead. Useful for comparison.
 
 Each method was tested using k-fold cross-validation to get a more reliable estimate of performance.
+
+
+The dataset includes information from over 1,000 Hollywood movies. For each film, we have metadata like:
+
+- Number of male and female actors with major speaking roles
+- Word counts by gender
+- Age of the lead and co-lead
+- Gross earnings of the film
+- Year of release
+
+The goal was to predict the **gender of the lead actor**, which is defined as the person who speaks the most in the film. So, even though each film has one male and one female lead, the task is to figure out which one talks more — based on these features.
+
