@@ -49,3 +49,10 @@ If you're using your own environment, make sure you have Python 3 and the usual 
 
 ```bash
 pip install pandas scikit-learn matplotlib seaborn
+
+
+After testing different models, we found that **Quadratic Discriminant Analysis (QDA)** gave the best results, with the lowest misclassification rate on the validation data.
+
+The feature engineering step — where we transformed raw word counts into percentages and created a co-lead word feature — helped improve accuracy across all models.
+
+Interestingly, even a simple rule that always predicted "male" as the lead performed surprisingly well, showing some clear imbalance in the data.
