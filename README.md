@@ -34,3 +34,18 @@ Here’s how the repo is organized to keep things clean and easy to follow:
 - `data/` – Contains the training and test datasets (`train.csv`, `test.csv`)
 - `scripts/` – Extra Python scripts, like one for checking prediction format
 - `results/` – Placeholder for final predictions or any plots/output files
+
+
+To try out the models or reproduce the results, you can follow the steps in the main notebook inside `notebooks/`.
+
+Once it’s available, it’ll walk through:
+
+1. Loading and transforming the data
+2. Running different classification models
+3. Comparing their performance
+4. Making predictions on the test set
+
+If you're using your own environment, make sure you have Python 3 and the usual ML libraries installed:
+```bash
+pip install pandas scikit-learn matplotlib seaborn
+'''
