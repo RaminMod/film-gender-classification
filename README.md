@@ -6,7 +6,7 @@ The task is framed as a binary classification problem, and it's related to broad
 
 ---
 
-### 🧠 What We Tried
+### What We Tried
 
 We explored a few different classification methods to see which one works best for this problem. Each model was tuned and evaluated using cross-validation.
 
@@ -22,7 +22,7 @@ Each method was tested using k-fold cross-validation to get a more reliable esti
 
 ---
 
-### 📁 The Dataset
+### The Dataset
 
 The dataset includes information from over 1,000 Hollywood movies. For each film, we have metadata like:
 
@@ -36,7 +36,7 @@ The goal was to predict the **gender of the lead actor**, which is defined as th
 
 ---
 
-### 📂 Repository Structure
+### Repository Structure
 
 Here’s how the repo is organized to keep things clean and easy to follow:
 
@@ -47,7 +47,7 @@ Here’s how the repo is organized to keep things clean and easy to follow:
 
 ---
 
-### ▶️ How to Run It
+###  How to Run It
 
 To try out the models or reproduce the results, you can follow the steps in the main notebook inside `notebooks/`.
 
@@ -67,7 +67,7 @@ You can also run everything in a Jupyter environment like VS Code, JupyterLab, o
 
 ---
 
-### ✅ What We Found
+### What We Found
 
 After testing different models, we found that **Quadratic Discriminant Analysis (QDA)** gave the best results, with the lowest misclassification rate on the validation data.
 
@@ -77,7 +77,7 @@ Interestingly, even a simple rule that always predicted "male" as the lead perfo
 
 ---
 
-### 💡 Ideas for Improvement
+### Ideas for Improvement
 
 A few things that could be interesting to try in the future:
 
