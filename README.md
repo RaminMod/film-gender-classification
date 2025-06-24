@@ -28,3 +28,9 @@ The dataset includes information from over 1,000 Hollywood movies. For each film
 
 The goal was to predict the **gender of the lead actor**, which is defined as the person who speaks the most in the film. So, even though each film has one male and one female lead, the task is to figure out which one talks more — based on these features.
 
+Here’s how the repo is organized to keep things clean and easy to follow:
+
+- `notebooks/` – Main analysis notebook with code, models, and results
+- `data/` – Contains the training and test datasets (`train.csv`, `test.csv`)
+- `scripts/` – Extra Python scripts, like one for checking prediction format
+- `results/` – Placeholder for final predictions or any plots/output files
