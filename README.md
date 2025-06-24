@@ -56,3 +56,11 @@ After testing different models, we found that **Quadratic Discriminant Analysis 
 The feature engineering step — where we transformed raw word counts into percentages and created a co-lead word feature — helped improve accuracy across all models.
 
 Interestingly, even a simple rule that always predicted "male" as the lead performed surprisingly well, showing some clear imbalance in the data.
+
+
+A few things that could be interesting to try in the future:
+
+- Use more recent data or extend the dataset with additional features like genre or budget
+- Try more advanced models like gradient boosting or neural networks
+- Dive deeper into explainability: which features matter most, and how do they influence predictions?
+- Investigate fairness metrics, since the task touches on gender-related patterns
