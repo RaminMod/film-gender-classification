@@ -65,7 +65,10 @@ Install the required packages by running:
 
 
 ```bash
-pip install -r requirements.txt
+pip install pandas scikit-learn matplotlib seaborn
+
+You can also run everything in a Jupyter environment like VS Code, JupyterLab, or Google Colab.
+
 ---
 
 ### What We Found
