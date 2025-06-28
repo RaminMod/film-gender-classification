@@ -1,0 +1,16 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS junk
+.DS_Store
+
+# VS Code settings (optional)
+.vscode/
+
+# Any other temp files
+*.pkl
+*.h5
