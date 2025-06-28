@@ -58,13 +58,14 @@ Once it’s available, it’ll walk through:
 3. Comparing their performance  
 4. Making predictions on the test set  
 
-If you're running this in your own environment, make sure you have Python 3 installed, along with the usual machine learning libraries:
+## Installation
+
+Install the required packages by running:
+
+
 
 ```bash
-pip install pandas scikit-learn matplotlib seaborn
-
-You can also run everything in a Jupyter environment like VS Code, JupyterLab, or Google Colab.
-
+pip install -r requirements.txt
 ---
 
 ### What We Found
