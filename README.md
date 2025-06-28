@@ -58,17 +58,13 @@ Once it’s available, it’ll walk through:
 3. Comparing their performance  
 4. Making predictions on the test set  
 
-## Installation
+### Installation
 
 Install the required packages by running:
 
-
-
 ```bash
-pip install pandas scikit-learn matplotlib seaborn
+pip install -r requirements.txt
 ```
-
-You can also run everything in a Jupyter environment like VS Code, JupyterLab, or Google Colab.
 
 ---
 
